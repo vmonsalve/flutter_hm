@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home: Text('Hola mundo')));
+  runApp(
+    const MaterialApp(
+      home: Scaffold(
+        body: Center(child: Text('Hola Mundo!')),
+      ),
+    ),
+  );
 }
