@@ -12,7 +12,13 @@ void main() {
                 end: Alignment.bottomRight),
           ),
           child: const Center(
-            child: Text('Hola Mundo!'),
+            child: Text(
+              'Hola Mundo!',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+              ),
+            ),
           ),
         ),
       ),
